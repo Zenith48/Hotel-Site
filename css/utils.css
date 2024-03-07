@@ -1,0 +1,67 @@
+:root{
+    --blue: #80BCBD;
+    --primary: #F9F7C9;
+    --secondary:#FFB996;
+    --success: #AAD9BB;
+    --danger: #D24545;
+    --warning: #FFCF81;
+    --info: #7FC7D9;
+    --dark: #161414;
+}
+
+/*text colors*/
+.text-primary { color: var(--primary);}
+.text-secondary { color: var(--secondary);}
+.text-seuccess { color: var(--success);}
+.text-warning { color: var(--warning);}
+.text-danger { color: var(--danger);}
+.text-info { color: var(--info);}
+
+
+/*background colors*/
+
+.bg-primary{background-color: var(--primary);}
+.bg-secondary{background-color: var(--secondary);}
+.bg-success{background-color: var(--success);}
+.bg-danger{background-color: var(--danger);}
+.bg-warning{background-color: var(--warning);}
+.bg-info{background-color: var(--info);}
+
+/*Buttons*/
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-hover{
+    opacity: 0.9;
+}
+
+.btn-primary{
+    color: var(--success);
+    background-color: var(--primary);
+}
+
+.btn-secondary{
+    color: var(--success);
+    background-color: var(--secondary);
+}
+
+.btn-warning{
+    color: var(--success);
+    background-color: var(--warning);
+}
+
+.btn-danger{
+    color: var(--success);
+    background-color: var(--danger);
+}
+
+.btn-info{
+    color: var(--success);
+    background-color: var(--info);
+}
